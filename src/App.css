@@ -1,3 +1,13 @@
+button {
+  width: 180px;
+  height: 90px;
+  text-align: center;
+  color: black;
+  font-size: 1em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 15px;
+  margin-right: 5px;
+}
 .App {
   text-align: center;
 }
@@ -18,8 +28,6 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +43,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+#caja {
+  width: 250px;
+  height: 200px;
+  border: 5px solid white;
+  background-color: aquamarine;
+  color: #444;
+  text-align: center;
+  line-height: 190px;
 }
